@@ -4029,6 +4029,14 @@ h5.small-heading span {
     }
 }
 
+
+@media only screen and (max-width: 1400px) {
+    .app-screenshots-slider-area .owl-item.active.center .item .screenshots-box {
+        margin: 0%;
+        padding: 20px 9px 0 11px;
+    }
+}
+
 /*--------Max 1200px Width Screen---------*/
 
 @media only screen and (max-width: 1200px) {
@@ -4063,12 +4071,6 @@ h5.small-heading span {
 
 /*--------Min 1200px Width Screen--------*/
 
-@media only screen and (min-width: 1400px) {
-    .app-screenshots-slider-area .owl-item.active.center .item .screenshots-box {
-        margin: 0%;
-        padding: 20px 9px 0 11px;
-    }
-}
 
 /*=====================================
     For Medium Screen
