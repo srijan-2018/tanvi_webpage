@@ -1234,6 +1234,15 @@ button:focus {
     margin: 20% 12%;
     padding: 20px 9px 0 11px;
 }
+@media only screen and (max-width: 1500px) {
+    .app-screenshots-slider-area .owl-item.active.center .item .screenshots-box {
+        margin: 0%;
+        padding: 20px 9px 0 11px;
+    }
+    .screenshots-box{
+        margin: 0;
+    }
+}
 
 .app-screenshots-slider-area .item img {
     border-radius: 30px;
@@ -2588,6 +2597,21 @@ header.page-banner-area .header-caption-heading {
     padding: 100px 0;
     top: 0;
 }
+@media only screen and (max-width: 1799px) {
+    .home-2 .download-area-inner{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 1299px) {
+    .home-2 .download-area-inner{
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 1099px) {
+    .home-2 .download-area-inner{
+        width: 125%;
+    }
+}
 
 /*------ Video Area CSS ------*/
 
@@ -3921,7 +3945,7 @@ h5.small-heading span {
     Extra Large Screen
 ========================================*/
 
-@media only screen and (min-width: 1920px) {}
+
 
 /*=====================================
     For Large Screen
@@ -4029,13 +4053,6 @@ h5.small-heading span {
     }
 }
 
-
-@media only screen and (max-width: 1400px) {
-    .app-screenshots-slider-area .owl-item.active.center .item .screenshots-box {
-        margin: 0%;
-        padding: 20px 9px 0 11px;
-    }
-}
 
 /*--------Max 1200px Width Screen---------*/
 
