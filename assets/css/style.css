@@ -1234,6 +1234,16 @@ button:focus {
     margin: 20% 12%;
     padding: 20px 9px 0 11px;
 }
+
+@media only screen and (max-width: 1700px) {
+    .app-screenshots-slider-area .owl-item.active.center .item .screenshots-box {
+        margin: 0% 2%;
+        padding: 20px 10px 0 10px;
+    }
+    .screenshots-box{
+        margin: 0;
+    }
+}
 @media only screen and (max-width: 1500px) {
     .app-screenshots-slider-area .owl-item.active.center .item .screenshots-box {
         margin: 0%;
